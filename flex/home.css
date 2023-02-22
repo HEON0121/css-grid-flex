@@ -1,0 +1,51 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} 
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column nowrap */
+    justify-content: space-between; /*main-axis*/
+    align-items: baseline; /*item 내 텍스트 같은 요소들 나란히 정*/
+    align-content: space-between; /*cross-axis*/
+}
+.item {
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+}
+.item1 {
+    background: #fdf;
+}
+.item2 {
+    background: #dbdbdb;
+}
+.item3 {
+    background: yellow;
+}
+.item4 {
+    background: green;
+}
+.item5 {
+    background: blue;
+}
+.item6 {
+    background: navy;
+}
+.item7 {
+    background: violet;
+}
+.item8 {
+    background: cyan;
+}
+.item9 {
+    background: sandybrown;
+}
+.item10 {
+    background: #cdcdcd;
+}
